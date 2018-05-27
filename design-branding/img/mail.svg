@@ -1,0 +1,15 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+ <title/>
+ <desc/>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="mail-envelope-closed" d="m7.07692,10.92308l9.42308,8.07692l9.42308,-8.07692l0,0l-0.8077,-0.8077l-8.61538,7.38462l-8.61538,-7.38462l-0.8077,0.8077l0,0zm-1.07333,-2.92308c-1.10655,0 -2.00359,0.89451 -2.00359,1.99406l0,12.01188c0,1.10129 0.88976,1.99406 2.00359,1.99406l20.99282,0c1.10655,0 2.00359,-0.89451 2.00359,-1.99406l0,-12.01188c0,-1.10129 -0.88976,-1.99406 -2.00359,-1.99406l-20.99282,0l0,0z"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="15.315068" x2="16.616438" y1="6.913246" x1="3.602746" stroke-width="1.5" stroke="#fff" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="7.552515" x2="28.260268" y1="15.360731" x1="15.885845" stroke-width="1.5" stroke="#fff" fill="none"/>
+ </g>
+</svg>
