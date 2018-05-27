@@ -1,0 +1,1032 @@
+*
+    margin: 0
+    padding: 0
+@font-face
+    font-family: Source Sans Pro
+li
+    list-style: none
+body
+    font-family: Source Sans Pro, Helvetica, sans-serif
+    color: #212121
+.container
+    margin: 0 auto
+    position: relative
+    width: 97%
+    max-width: 1170px
+
+header
+    margin: 0 auto
+    background-size: cover
+    position: relative
+    
+    .header-wrapper
+        position: absolute
+        top: 0
+        left: 50%
+        width: 97%
+        max-width: 1170px
+        transform: translateX(-50%)
+        padding-top: 2%
+        z-index: 10
+        
+        .logo
+            float: left
+            letter-spacing: 1px
+            
+            a
+                text-decoration: none
+                color: #212121
+                text-transform: uppercase
+                font-size: 18px
+                font-weight: bold
+                
+        .top-nav
+            float: right
+
+            ul
+                li
+                    display: inline-block
+                    margin-right: 20px
+                    a
+                        text-decoration: none
+                        text-transform: uppercase
+                        color: #212121
+                        font-weight: bold
+                        font-size: 16px
+                .menu
+                    width: 128px
+                    height: 90px
+                    
+                    a
+                        text-decoration: none
+                        text-transform: uppercase
+                        color: #212121
+                        font-weight: bold
+                        font-size: 16px
+                        background: url("../img/menu.png") no-repeat 0 0 
+                        
+
+.top-wrapper 
+    background: url("../img/bg-header.jpg") center no-repeat
+    background-size: cover
+    
+    .container
+        min-height: 920px
+        
+        .header-descr
+            position: absolute
+            top: 40%
+            right: 0
+            width: 48.1%
+            
+            h1
+                font-size: 72px
+                text-transform: uppercase
+                color: #212121
+                
+                text-align: right
+                &:after
+                    content: ""
+                    width: 138px
+                    height: 4px
+                    background: #232323
+                    float: right
+                    display: block
+                    margin: 29px 5px 45px 0
+                    
+            p
+                text-align: right
+                line-height: 35px
+                font-size: 18px
+                float: right
+            
+            .rest
+                border: 2px solid #212121
+                padding: 12px 0
+                text-align: center
+                margin-top: 49px
+                display: block
+                float: right
+                width: 268px
+                text-decoration: none
+                color: #212121
+                font-weight: bold
+                font-size: 18px
+
+                &:hover
+                    background: #000
+                    opacity: 0.5
+                    color: #fff
+                    border: 2px solid #000
+                @media screen and(width: 700px)
+                    color: orange
+
+.whoandwhy
+    
+    background: #fff
+    padding: 100px 0
+    
+    .container
+        text-align: center
+        
+        h2
+            font-weight: bold
+            font-size: 27px
+            letter-spacing: 2px
+            
+            &:before
+                content: ''
+                background: url(../img/broccoli.png)
+                width: 39px
+                height: 39px
+                display: block
+                margin: 0 auto 10px
+            
+        p
+            padding-top: 62px
+            line-height: 33px
+            letter-spacing: 0.4px
+.features
+    padding: 76px 0 76px 55px
+    background: #efefef
+            
+    .features-list
+
+        li
+            display: inline-block
+            width: 25%
+            h2
+                padding-top: 19px
+                font-size: 19px
+                letter-spacing: 0.5px
+           
+                &:before
+                    content: ''
+                    display: block
+                    text-align: left
+                    margin-bottom: 10px
+            .features-clock   
+                &:before
+                    background: url(../img/clock.png)
+                    width: 37px
+                    height: 33px
+            .features-vector   
+                &:before
+                    background: url(../img/vector.png)
+                    width: 36px
+                    height: 33px
+            .features-land   
+                &:before
+                    background: url(../img/land-working.png)
+                    width: 47px
+                    height: 38px
+            p
+                padding-top: 25px
+                line-height: 27px
+                letter-spacing: 0.96px
+            &:nth-of-type(1)
+                margin-right: 7%
+            &:nth-of-type(2)
+                margin-right: 7%
+                img
+                    margin-left: 3px
+            &:nth-of-type(3)
+                margin-right: 0px
+                img
+                    margin-left: 5px
+
+        /*----------------------------------ARTICLES-------------------------------------------*/
+.articles
+    background: #fff
+    padding: 97px 0
+    
+    h2
+        font-size: 27px
+        text-align: center
+        font-weight: bold
+        letter-spacing: 2px
+    p.top-text
+        text-align: center
+        max-width: 763px
+        margin: 31px auto 0
+        line-height: 32px
+        
+
+    .articles-list
+        color: #eee
+        margin-top: 102px
+        
+        .slick-track
+            position: relative
+            
+        .slick-next
+            background: url('../img/arrow-right.svg') center no-repeat
+            border: none
+            color: transparent
+            width: 20px
+            height: 20px
+            position: absolute
+            right: -4%
+            top: 50%
+        .slick-prev
+            background: url('../img/arrow-left.svg') center no-repeat
+            border: none
+            color: transparent
+            width: 20px
+            height: 20px
+            position: absolute
+            left: -4%
+            top: 50%
+        .slick-slide
+            width: 269px
+            margin-left: 43px
+        li
+            
+            height: 257px
+            background: #222
+            display: inline-block
+            padding: 64px 57px 47px 40px
+            position: relative
+            
+            h3
+                font-size: 14px
+                text-transform: uppercase
+                text-align: left
+                letter-spacing: 0.2px
+            .comment-text
+                font-size: 24px
+                margin-top: 25px
+                line-height: 32px
+                letter-spacing: 1.6px
+            .comment-autor
+                font-size: 14px
+                margin-top: 83px
+                position: absolute
+                top: 46%
+                left: 11%
+
+                img
+                    float: left
+                    padding-right: 15px
+                p.comment-author-name
+                    text-transform: uppercase
+                    padding: 9px 0 0 76px
+                    letter-spacing: 1.2px
+                p.comment-date
+                    padding-top: 5px
+                    letter-spacing: 1px
+            &:nth-child(2)
+                .comment-autor
+                    margin-top: 52px  
+                p.comment-date
+                    padding-top: 4px
+
+/*---------------------CLIENTS-----------------------------------------------------
+
+.clients
+    background: #efefef
+    padding: 60px 0
+    
+    .container
+        text-align: center
+        
+        h3
+            /*padding-top: 60px*/
+            font-size: 27px
+            font-weight: bold
+            letter-spacing: 2px
+            margin-bottom: 30px
+            
+        .clients-list
+            li
+                display: inline-block
+                width: 200px
+                
+            .slick-track
+                position: relative
+                
+            .slick-next
+                background: url('../img/arrow-right.svg') center no-repeat
+                border: none
+                color: transparent
+                width: 20px
+                height: 20px
+                position: absolute
+                right: -4%
+                top: 50%
+                
+            .slick-prev
+                background: url('../img/arrow-left.svg') center no-repeat
+                border: none
+                color: transparent
+                width: 20px
+                height: 20px
+                position: absolute
+                left: -4%
+                top: 50%
+            
+/*---------------------PORTFOLIO-----------------------------------------------------*/  
+
+.portfolio
+    background: #fff
+    padding: 100px 0
+    .container
+        text-align: center
+        h3
+            
+            font-size: 27px
+            font-weight: bold
+            letter-spacing: 2px
+            margin-bottom: 31px
+        .portfolio-text
+            
+            text-align: center
+            line-height: 32px
+            max-width: 763px
+            margin: 0 auto 43px
+            
+            &:after
+                content: ""
+                width: 75px
+                height: 7px
+                background: #e64a19
+                text-align: center
+                display: block
+                margin: 39px auto 0
+        ul
+            margin: 0px 0 46px 0
+            li
+               
+                display: inline-block
+                margin: 0 21px 0 12px
+    .portfolio-slider-container
+        margin: 0 auto
+        width: 97%
+        max-width: 1500px
+        .portfolio-list 
+            position: relative
+            
+            .slick-track
+                position: relative
+
+            .slick-next
+                background: url('../img/arrow-right.svg') center no-repeat
+                border: none
+                color: transparent
+                width: 20px
+                height: 20px
+                position: absolute
+                right: -4%
+                top: 50%
+
+            .slick-prev
+                background: url('../img/arrow-left.svg') center no-repeat
+                border: none
+                color: transparent
+                width: 20px
+                height: 20px
+                position: absolute
+                left: -4%
+                top: 50%
+            .slick-dots
+                position: absolute
+                top: 105%
+                left: 50%
+                
+                .portfolio-dot,
+                li
+                    background: #ccc
+                    width: 11px
+                    height: 11px
+                    border-radius: 50%
+                    display: inline-block
+                    margin-right: 9px
+                    color: transparent
+                    z-index: 1
+                    &:hover
+                        background: #e64a19
+                    
+                    button[role="tab"]
+                        background: transparent
+                        color: transparent
+                        border: none
+                        
+                
+                    
+                .slick-active
+                    /*background: #e64a19*/
+                    width: 11px
+                    height: 11px
+                    border-radius: 50%
+                    display: inline-block
+                    margin-right: 9px
+                    z-index: 2
+                    
+                    .portfolio-dot
+                        background: #e64a19
+            .portfolio-image
+                width: 435px
+                display: inline-block
+            
+                &:hover
+                    filter: grayscale(100%)
+                
+            
+        /*------------------------------Quote--------------------------------*/ 
+        
+.quote
+    background: #212121
+    padding: 83px 0
+    
+    .container
+        text-align: center
+                
+        .quote-text
+            font-size: 20px
+            margin-top: 7px
+            line-height: 39px
+            color: #eee
+        .quote-author
+            font-size: 20px
+            margin-top: 24px
+            color: #fff
+            font-style: italic
+            
+            /*----------------------TEAM------------------------------------*/
+            
+.team
+    background: #fff
+    margin-bottom: 100px
+    padding-top: 98px
+    text-align: center
+    
+    h3
+        margin-bottom: 41px
+        font-size: 27px
+        font-weight: bold
+        letter-spacing: 2px
+    .team-top-text
+        margin: 0 auto
+        text-align: center
+        max-width: 770px
+        line-height: 33px
+    ul
+        margin-top: 92px
+        li
+            display: inline-block
+            margin: 0 80px 0 94px
+            
+            img
+                margin-bottom: 35px
+            p
+                text-align: center
+                margin-top: 11px
+                
+                &:nth-child(2)
+                    font-weight: bold
+                    text-transform: uppercase
+               
+                
+
+        /*----------------------FACTS------------------------------------*/                
+                
+                
+.facts
+    background:  url("../img/bg-facts.jpg") no-repeat 0 0 
+    background-size: cover
+    color: #eee
+    text-align: center
+    padding: 96px 0
+    
+    h3
+        font-size: 27px
+        font-weight: bold
+        letter-spacing: 2px
+        
+    ul
+        background-color: rgba(140,140,140, 0.6)
+        width: 630px
+        padding: 53px 102px 50px 98px
+        margin: 63px auto 0
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        
+        li 
+            
+            display: inline-block
+            width: 240px
+            margin-bottom: 50px
+            
+            .fact-number
+                font-size: 24px
+                letter-spacing: 1.9px
+                
+                &:first-child
+                    font-weight: bold
+                    font-size: 27px
+                
+                &:after
+                    content: ""
+                    width: 75px
+                    height: 4px
+                    background: #4d4c4b
+                    display: block
+                    margin: 13px auto 9px
+    &:after
+        content: ""
+        width: 75px
+        height: 7px
+        background: #e64a19
+        display: block
+        margin: 0px auto 9px        
+    
+        
+        
+/*----------------------NEWS------------------------------------ */
+    
+.news
+    background: #fff 
+    padding: 110px 0 50px  0
+    
+    .container
+        
+        ul
+
+            li
+                margin-bottom: 45px
+                clear: both
+                overflow: auto
+
+
+
+                .news-descr
+                    margin: 74px 70px 0 71px
+                    text-align: center
+
+                    .news-theme
+                        color: #555
+                        font-size: 14px
+                        letter-spacing: 1px
+
+                    p
+                        max-width: 430px
+                        color: #333
+                        line-height: 28px
+
+                    h3
+                        font-size: 24px
+                        margin-bottom: 42px
+                        margin-top: 4px
+                        letter-spacing: 1.6px
+                        color: #222
+
+                .fll
+                    float: left
+
+                .flr
+                    float: right
+
+
+            /*----------------------LAST UPDATE COMMENT---------------------------*/     
+    
+.last-update-comment
+    background: #efefef
+    padding: 72px 165px 70px 165px
+    
+    .update-list
+        
+        .slick-track
+            position: relative
+                
+        .slick-next
+            background: url('../img/arrow-right.svg') center no-repeat
+            border: none
+            color: transparent
+            width: 20px
+            height: 20px
+            position: absolute
+            right: -4%
+            top: 50%
+
+        .slick-prev
+            background: url('../img/arrow-left.svg') center no-repeat
+            border: none
+            color: transparent
+            width: 20px
+            height: 20px
+            position: absolute
+            left: -4%
+            top: 50%
+        li
+            width: 325px
+            /*margin-left: 4px*/
+            &:before
+                content: ""
+                width: 6px
+                height: 73px
+                background: #212121
+                display: block
+                float: left
+                                
+            h4
+                font-size: 18px
+                color: #222
+                margin: 9px 0
+                letter-spacing: -0.2px
+                margin-left: 30px
+                   
+                
+            p
+                color: #555
+                font-size: 14px
+                letter-spacing: 1.2px
+                margin-left: 30px
+
+/*----------------------RANDOM COMMENT---------------------------*/                  
+.random-comment
+    background: #fff 
+    text-align: center
+    padding-top: 22px
+    margin-bottom: 100px
+    
+    img
+        margin-top: 54px
+    
+    p
+        font-size: 20px
+        margin-top: 29px
+        line-height: 36px
+        
+        &:last-child
+            font-weight: bold
+            margin-top: 20px
+            font-size: 16px
+        
+        /*----------------------FOOTER---------------------------*/ 
+    
+footer
+    background: #212121  
+    padding: 0 165px
+    overflow: hidden
+    .top-footer
+        padding-top: 69px
+        
+        .left-column
+            float: left
+            width: 40%
+            margin-bottom: 10px
+            
+            h2
+                
+                margin-bottom: 24px
+                max-width: 430px
+                font-weight: bold
+                color: #ddd
+                text-transform: uppercase
+                font-size: 22px
+                
+            form
+                p
+                    color: #999
+                    font-size: 14px
+                    line-height: 23px
+                    letter-spacing: 0.15px
+                    
+                input
+                    background: #212121
+                    border: none
+                    
+                #mail,
+                #subject   
+                    width: 200px
+                    border-bottom: 1px solid #474747
+                    color: #898989
+                    margin-top: 35px
+                    margin-right: 27px
+                    padding-bottom: 4px
+                    letter-spacing: -1.1px
+                   
+                #message
+                    margin-top: 20px
+                    width: 430px
+                    border-bottom: 1px solid #474747
+                    color: #898989
+                    letter-spacing: -1.8px
+                    padding-bottom: 4px
+                    
+                input[type=submit]
+                    color: #999
+                    margin-top: 90px
+                    text-transform: uppercase
+                    background: url("../img/arrow-r.png") no-repeat 37px 2px
+                    width: 70px
+                    text-align: left
+                    letter-spacing: -1.4px
+                    cursor: pointer
+                
+        .right-column
+            float: right
+            width: 50%
+            padding-top: 3px
+            ul
+                display: inline-table
+                padding: 0 5px
+                &:nth-of-type(2)
+                    margin-left: 118px
+                &:nth-of-type(3)
+                    margin-left: 118px
+                li
+                    display: block
+                    color: #999
+                    padding-bottom: 4px
+                    letter-spacing: -1px
+                    &:first-child
+                        margin-bottom: 25px
+                        font-size: 15px
+                        font-weight: bold
+                        color: #ddd
+                        text-transform: uppercase
+                        letter-spacing: 0.2px
+    .bottom-footer    
+        clear: both
+        border-top: 1px solid #474747
+        color: #aaa
+        padding-top: 29px
+        p
+            letter-spacing: -0.8px
+            float: left
+        ul
+            float: right
+            margin-top: 15px
+            
+            li
+                display: inline-block
+                margin-left: 27px
+                a
+                    color: #aaa
+                    text-transform: uppercase
+                    text-decoration: none
+                    font-size: 13px
+                    
+@media screen and (max-width: 700px)
+
+    .top-wrapper
+        .container
+            .header-descr
+                top: 20%
+                width: 100%
+                h1
+                    text-align: center
+                    font-size: 48px
+                    &:after
+                        float: none
+                        margin-left: 40%
+                p
+                    float: none
+                    max-width: 650px
+                .rest
+                    float: none
+                    margin-left: 30%
+    
+        
+@media screen and (min-width: 420px) and (max-width: 550px)
+    .top-wrapper
+        .container
+            .header-descr
+                top: 10%
+                width: 100%
+                h1
+                    text-align: center
+                    font-size: 48px
+                    &:after
+                        float: none
+                        margin-left: 30%
+                p
+                    float: none
+                    max-width: 650px
+                    text-align: justify
+                .rest
+                    float: none
+                    margin-left: 20%
+                    
+@media screen and (min-width: 320px) and (max-width: 420px)
+    .top-wrapper
+        .container
+            .header-descr
+                top: 10%
+                width: 100%
+                h1
+                    text-align: center
+                    font-size: 48px
+                    &:after
+                        float: none
+                        margin-left: 30%
+                p
+                    float: none
+                    max-width: 650px
+                .rest
+                    float: none
+                    margin-left: 8%
+@media screen and (max-width: 1070px) and (min-width: 850px)                   
+    .features
+        padding: 76px 0 76px 35px
+        .features-list
+            li
+                width: 100%
+                text-align: left
+               
+@media screen and (max-width: 850px) and (min-width: 320px) 
+    .features
+        padding: 76px 0 76px 15px
+        .features-list
+            li
+                width: 100%
+                margin-left: 0
+                text-align: center
+                .features-clock 
+                    margin: 0 auto
+                    &:before
+                        margin: 0 auto
+                .features-vector 
+                    margin: 0 auto
+                    &:before
+                        margin: 0 auto
+                .features-land 
+                    margin: 0 auto
+                    &:before
+                        margin: 0 auto
+                    
+@media screen and (max-width: 550px) and (min-width: 320px) 
+    .articles
+        width: 95%
+        .articles-list
+            margin: 0 1%
+            li
+                padding: 44px 27px 37px 20px 
+                .comment-text
+                    max-width: 200px
+        .slick-prev
+            left: -2%
+            
+@media screen and (max-width: 750px) and (min-width: 320px) 
+    .clients
+        .container
+            .clients-list
+                .slick-list
+                    .slick-track
+                        
+                        .slick-slide
+                            width: 130px
+                
+            
+@media screen and (max-width: 550px) and (min-width: 320px)
+    .portfolio
+        .container
+            ul
+                li
+                    margin: 0 8px
+                    
+    .portfolio-slider-container
+        .portfolio-list
+            .slick-dots
+                left: 40%
+                
+@media screen and (max-width: 1260px) and (min-width: 760px)
+    .team
+        ul
+            li
+                margin: 0 30px
+                
+@media screen and (max-width: 760px) and (min-width: 500px)
+    .team
+        ul
+            .team-member
+                margin: 0 30px
+                width: 30%
+                
+@media screen and (max-width: 500px) and (min-width: 320px) 
+    .team
+        ul
+            .team-member
+                margin: 0
+                width: 100%
+                margin-bottom: 20px
+                
+@media screen and (max-width: 860px) and (min-width: 320px)                
+    .facts
+        padding: 50px 0
+        ul
+            width: 100%
+            padding: 20px 0 0
+            li
+                width: 50%
+@media screen and (max-width: 1250px) and (min-width: 950px) 
+    .news
+        .container
+            ul
+                li
+                    margin-left: 20%
+                    .fll, 
+                    .flr
+                        float: none
+                    .news-descr
+                        h3
+                            max-width: 400px
+                            text-align: center
+                            
+@media screen and (max-width: 950px) and (min-width: 320px)
+    .news
+        .container
+            ul
+                li
+                    margin-left: 10%
+                    .fll, 
+                    .flr
+                        float: none
+                    .news-descr
+                        h3
+                            max-width: 400px
+                            text-align: center
+                            
+@media screen and (max-width: 950px) and (min-width: 320px)
+    .news
+        .container
+            ul
+                li
+                    margin-left: 0
+                    img
+                        display: none
+    .last-update-comment
+        padding: 52px 30px 50px 30px
+        
+                        
+@media screen and (max-width: 1450px) and (min-width: 1000px)
+    footer
+        .top-footer
+            .right-column
+                ul
+                    &:nth-of-type(2)
+                        margin-left: 30px
+                    &:nth-of-type(3)
+                        margin-left: 30px
+                    
+                    
+@media screen and (max-width: 1000px) and (min-width: 770px)
+    footer
+        padding: 0 10%
+        .top-footer
+            .left-column
+                width: 100%
+                form
+                    input[type=submit]
+                        width: 100%
+            .right-column
+                float: left
+                width: 100%
+
+                ul
+                    &:nth-of-type(2)
+                        margin-left: 60px
+                    &:nth-of-type(3)
+                        margin-left: 60px
+@media screen and (max-width: 770px) and (min-width: 320px)
+    footer
+        padding: 0 2%
+        .top-footer
+            .left-column
+                width: 100%
+                form
+                    input[type=submit]
+                        width: 100%
+                    #message
+                        width: 100%
+            .right-column
+                float: left
+                width: 100%
+                
+                ul
+                    width: 30%
+                    padding: 0
+                    margin-left: 0
+                    &:nth-of-type(2)
+                        margin-left: 0
+                    &:nth-of-type(3)
+                        margin-left: 0
+                    
+@media screen and (max-width: 1200px) and (min-width: 700px)
+    footer
+        .bottom-footer
+            ul
+                width: 100%
+                
+@media screen and (max-width: 1200px) and (min-width: 320px)
+    footer
+        .bottom-footer
+            overflow: hidden
+            padding-bottom: 3%
+            ul
+                width: 100%
+                li
+                    margin: 0 7% 0 0
+                    
